@@ -5,6 +5,7 @@ import { useMutation } from "@tanstack/react-query";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 import {
   Form,
   FormControl,
@@ -200,6 +201,26 @@ export function ContactForm() {
                           ))}
                         </SelectContent>
                       </Select>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+
+                <FormField
+                  control={form.control}
+                  name="message"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel className="text-white">Mensagem (opcional)</FormLabel>
+                      <FormControl>
+                        <Textarea
+                          placeholder="Conte-nos mais sobre o que você procura..."
+                          className="bg-white/10 border-white/30 text-white placeholder:text-pearl-400 focus:border-emerald-400 focus:ring-emerald-400/20 min-h-[100px]"
+                          {...field}
+                          value={field.value || ""}
+                          data-testid="input-message"
+                        />
+                      </FormControl>
                       <FormMessage />
                     </FormItem>
                   )}
