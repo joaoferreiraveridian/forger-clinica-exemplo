@@ -1,0 +1,423 @@
+# PROMPT PARA O LOVABLE - CLÍNICA DE ESTÉTICA/ODONTOLÓGICA
+
+Crie um site institucional premium e completo para uma clínica de estética e odontologia, com design disruptivo, moderno e tecnológico que se destaque completamente dos sites tradicionais do setor.
+
+## 🎨 IDENTIDADE VISUAL E DESIGN
+
+### Paleta de Cores
+
+- **Cores Primárias**: Utilize um gradiente sofisticado de azul petróleo profundo (`#0A2E36`) para verde esmeralda vibrante (`#00D9C0`), transmitindo tecnologia, saúde e renovação
+- **Cores Secundárias**: Rosa dourado metálico (`#E8C4B8`) e branco pérola (`#F8F9FA`) para acentos de luxo e limpeza
+- **Cores de Destaque**: Coral suave (`#FF6B9D`) para CTAs e elementos interativos
+- **Fundos**: Utilize fundos com efeito glassmorphism, gradientes sutis e elementos com blur de fundo para criar profundidade
+
+### Estilo Visual Diferenciado
+
+- Design com estética **neomórfica e glassmórfica combinadas**
+- Elementos flutuantes com sombras suaves e efeitos 3D
+- Animações micro-interativas em TODOS os elementos (hover, scroll, entrada)
+- Cards com efeito de vidro fosco (backdrop-filter: blur)
+- Bordas com gradientes animados e brilho sutil
+- Partículas flutuantes animadas no fundo do hero
+- Transições suaves entre seções com parallax
+- Elementos geométricos abstratos que remetem a moléculas e tecnologia médica
+
+### Tipografia
+
+- **Fonte Principal**: Inter (para textos e parágrafos) - moderna, legível e profissional
+- **Fonte Secundária**: Poppins (para títulos e destaques) - elegante e impactante
+- Hierarquia clara: Títulos 48-72px, Subtítulos 24-32px, Corpo 16-18px
+- Espaçamento generoso entre linhas (line-height: 1.6-1.8)
+
+### Logo
+
+**IMPORTANTE**: A IA deve CRIAR a logo do site com os seguintes requisitos:
+
+- Nome da clínica: "Essence Clinic"
+- Símbolo: Combinar um dente estilizado com uma gota/folha que represente essência e renovação
+- Estilo: Minimalista, moderno, com linhas fluidas
+- Formato: SVG com gradiente (azul petróleo para verde esmeralda)
+- A logo deve ser TRANSPARENTE (sem fundo quadrado branco)
+- Integração: A logo deve fazer parte orgânica do header, com tamanho proporcional (altura ~60px desktop, ~45px mobile)
+- A logo deve ter animação sutil ao carregar a página (fade-in + slight scale)
+
+## 📱 RESPONSIVIDADE COMPLETA
+
+### Breakpoints Específicos
+
+- **Mobile Small** (320px - 375px): Layout single column, fonte reduzida proporcionalmente
+- **Mobile** (376px - 767px): Cards empilhados, menu hamburger animado
+- **Tablet Portrait** (768px - 1024px): Layout 2 colunas adaptativo
+- **Tablet Landscape** (1025px - 1366px): Layout híbrido 2-3 colunas
+- **Desktop** (1367px - 1920px): Layout full com 3-4 colunas
+- **Large Screens** (1921px+): Layout expandido com max-width 1600px centralizado
+
+### Ajustes Responsivos Críticos
+
+- Imagens com object-fit: cover e aspect-ratio mantido
+- Grid responsivo com minmax(auto-fill)
+- Fontes fluidas usando clamp() - Ex: clamp(1rem, 2vw, 1.5rem)
+- Espaçamentos proporcionais com vw/vh
+- Touch targets mínimos de 44px em mobile
+- Menu mobile full-screen com animação slide-in suave
+
+## 🖼️ IMAGENS GERADAS POR IA
+
+**INSTRUÇÕES CRÍTICAS**: TODAS as imagens devem ser geradas por IA usando o Unsplash ou similar. Nunca use placeholders.
+
+### Hero Section - Imagem Principal
+
+- **Prompt para IA**: "Professional female dentist in modern white coat, smiling confidently, in a futuristic dental clinic with soft lighting, high-tech equipment in background, clean aesthetic, 3D integrated style, professional photography, ultra realistic, 8K quality"
+- A profissional deve parecer integrada ao design do site, com efeito de sobreposição 3D
+- Aplicar efeito de recorte PNG (background transparente ao redor da pessoa)
+- Posicionar a profissional à direita do hero, ocupando ~40% da largura
+- Adicionar glow effect sutil ao redor da silhueta
+
+### Demais Imagens do Site
+
+**Gerar com IA para cada seção:**
+
+1. **Seção Tratamentos** (4 imagens):
+    - "Modern dental chair in luxury clinic, minimalist design, soft lighting"
+    - "Aesthetic facial treatment, modern equipment, clean environment"
+    - "Dental whitening procedure, professional setting, technology"
+    - "Skin care treatment room, spa-like atmosphere, elegant"
+2. **Seção Tecnologia** (3 imagens):
+    - "High-tech dental scanner 3D, futuristic medical device"
+    - "Digital smile design screen, modern dental technology"
+    - "Laser aesthetic equipment, professional clinic setting"
+3. **Seção Equipe** (4 imagens):
+    - "Professional dentist portrait, white coat, modern clinic background"
+    - "Aesthetic specialist portrait, elegant, professional"
+    - "Dental hygienist portrait, friendly, clean aesthetic"
+    - "Clinic manager portrait, business professional, medical setting"
+4. **Galeria Antes/Depois** (6 imagens):
+    - Gerar comparações visuais de tratamentos dentários e estéticos
+    - Estilo profissional, iluminação consistente
+5. **Blog/Artigos** (thumbnails):
+    - Imagens abstratas relacionadas a saúde, bem-estar e tecnologia médica
+
+## 📄 ESTRUTURA COMPLETA DO SITE
+
+### HEADER (Fixo no topo com glassmorphism)
+
+- Logo "Essence Clinic" (gerada por IA, integrada, transparente)
+- Menu de navegação horizontal (desktop) / hamburger (mobile)
+    - Links: Início | Tratamentos | Tecnologia | Equipe | Galeria | Blog | Contato
+- Botão CTA destacado: "Agendar Consulta" (gradiente animado)
+- Fundo semi-transparente com blur quando scroll > 100px
+- Animação suave de surgimento ao carregar
+
+### 1. PÁGINA INICIAL (HOME)
+
+### Hero Section (Full viewport height)
+
+**Layout**:
+
+- Lado esquerdo (60%):
+    - Título principal: "Transforme Seu Sorriso, Renove Sua Essência"
+    - Subtítulo: "Tecnologia de ponta + Cuidado humanizado = Resultados extraordinários"
+    - Descrição: "Na Essence Clinic, unimos os tratamentos estéticos e odontológicos mais avançados com uma experiência acolhedora e personalizada. Sua melhor versão começa aqui."
+    - 2 CTAs: "Agendar Avaliação Gratuita" (primário) + "Conheça Nossos Tratamentos" (secundário)
+    - Mini badges flutuantes: "15 anos de experiência" | "20.000+ sorrisos transformados" | "Tecnologia 3D"
+- Lado direito (40%):
+    - Imagem 3D integrada da profissional (gerada por IA conforme descrito acima)
+    - Partículas animadas flutuando ao redor
+    - Efeito de profundidade com parallax
+
+**Efeitos**:
+
+- Background com gradiente animado sutil
+- Partículas/círculos geométricos flutuantes
+- Texto com animação fade-in sequencial
+- Imagem com efeito de levitação suave
+
+### Seção "Nossos Diferenciais" (3 colunas)
+
+**Cards com ícones personalizados**:
+
+1. **Tecnologia de Ponta**
+    - Ícone: Scanner 3D animado
+    - Texto: "Equipamentos de última geração para diagnósticos precisos e tratamentos minimamente invasivos"
+    - Hover: Card eleva com glow effect
+2. **Equipe Especializada**
+    - Ícone: Equipe médica estilizada
+    - Texto: "Profissionais com certificações internacionais e em constante atualização"
+    - Hover: Card com animação de brilho
+3. **Atendimento Humanizado**
+    - Ícone: Coração + mãos
+    - Texto: "Ambiente acolhedor, escuta ativa e planos personalizados para cada paciente"
+    - Hover: Efeito de pulsação suave
+
+**Design dos Cards**:
+
+- Fundo glassmórfico com blur
+- Borda gradiente animada
+- Ícones com animação ao entrar no viewport
+- Sombra profunda em 3D
+
+### Seção "Tratamentos Premium" (Grid 2x2)
+
+**4 Cards Interativos**:
+
+1. **Odontologia Estética**
+    - Imagem: Dental aesthetic procedure (gerada por IA)
+    - Lista: Lentes de contato dental, Clareamento avançado, Harmonização do sorriso
+    - Botão: "Saiba mais"
+    - Hover: Zoom suave na imagem + overlay gradiente
+2. **Implantodontia Digital**
+    - Imagem: 3D dental implant technology (gerada por IA)
+    - Lista: Implantes com guia cirúrgico digital, Carga imediata, Prótese sobre implante
+    - Botão: "Saiba mais"
+3. **Estética Facial**
+    - Imagem: Facial aesthetic treatment (gerada por IA)
+    - Lista: Harmonização orofacial, Toxina botulínica, Preenchimento labial
+    - Botão: "Saiba mais"
+4. **Ortodontia Invisível**
+    - Imagem: Clear aligners technology (gerada por IA)
+    - Lista: Alinhadores transparentes, Planejamento 3D, Resultados previsíveis
+    - Botão: "Saiba mais"
+
+**Design**:
+
+- Cards grandes com imagem em destaque
+- Overlay gradiente ao hover
+- Animação de flip ou slide ao interagir
+- Badge "Mais procurado" em tratamento destaque
+
+### Seção "Tecnologia que Impressiona"
+
+**Layout Timeline Horizontal**:
+
+- 4 etapas do tratamento com ícones tecnológicos
+1. **Escaneamento 3D** → "Captura digital completa da sua boca em minutos"
+2. **Planejamento Digital** → "Visualize seu resultado antes mesmo de começar"
+3. **Execução Precisa** → "Guias cirúrgicos e tratamentos milimétricos"
+4. **Acompanhamento App** → "Monitore sua evolução pelo smartphone"
+
+**Efeitos**:
+
+- Linha conectora animada entre etapas
+- Ícones que se acendem ao scroll
+- Cards que aparecem sequencialmente
+
+### Seção "Resultados que Falam" (Galeria Antes/Depois)
+
+**Slider/Carousel**:
+
+- 6 casos de sucesso com comparação antes/depois
+- Slider interativo (arrastar para comparar)
+- Legendas: Tipo de tratamento + tempo de duração
+- Navegação com dots + setas
+- Auto-play suave com pause ao hover
+- Imagens geradas por IA de alta qualidade
+
+**Design**:
+
+- Cards com borda neon ao hover
+- Efeito de comparação deslizante suave
+- Animação de transição fluida
+
+### Seção "Depoimentos Reais"
+
+**Cards de Testemunhos (Slider)**:
+
+- 5-6 depoimentos com:
+    - Foto do paciente (avatar gerado por IA ou ilustração)
+    - Nome + idade
+    - Texto do depoimento (3-4 linhas)
+    - Estrelas (5/5)
+    - Tratamento realizado
+
+**Design**:
+
+- Cards com fundo gradiente sutil
+- Aspas estilizadas grandes como elemento decorativo
+- Animação de fade entre depoimentos
+- Estrelas com animação de preenchimento
+
+### Seção "Blog e Conteúdo"
+
+**Grid 3 Colunas (últimos 3 artigos)**:
+
+- Thumbnail (imagem gerada por IA)
+- Categoria badge
+- Título do artigo
+- Resumo (2 linhas)
+- Data de publicação
+- Botão "Ler mais"
+
+**Temas dos artigos**:
+
+1. "5 Mitos Sobre Implantes Dentários Desvendados"
+2. "Harmonização Facial: O Que Você Precisa Saber"
+3. "Tecnologia 3D: A Revolução na Odontologia"
+
+### Seção "Agende Sua Avaliação"
+
+**CTA Final Impactante**:
+
+- Background com gradiente vibrante
+- Título: "Pronto Para Sua Transformação?"
+- Subtítulo: "Agende uma avaliação gratuita e descubra o que a Essence Clinic pode fazer por você"
+- Formulário rápido inline:
+    - Nome
+    - WhatsApp
+    - Tratamento de interesse (select)
+    - Botão "Quero Agendar Agora"
+- Ao lado: Ícones de contato alternativos
+    - WhatsApp (com número)
+    - Telefone
+    - E-mail
+    - Endereço
+
+**Design**:
+
+- Formulário com glassmorphism
+- Inputs com foco animado (border glow)
+- Botão com gradiente e animação de pulse
+- Ícones de contato com hover effects
+
+### FOOTER
+
+**3 Colunas**:
+
+- **Coluna 1**: Logo + descrição curta + redes sociais (ícones animados)
+- **Coluna 2**: Links rápidos (Tratamentos, Sobre, Blog, Contato, Políticas)
+- **Coluna 3**: Horários de funcionamento + Endereço + Mapa miniatura
+
+**Design**:
+
+- Fundo escuro (dark mode do tema)
+- Elementos com espaçamento generoso
+- Ícones sociais com hover effect (elevação + cor)
+- Copyright bar no final
+
+---
+
+### 2. PÁGINA "TRATAMENTOS"
+
+### Hero Interno
+
+- Título: "Tratamentos Que Transformam"
+- Breadcrumb: Início > Tratamentos
+- Imagem de fundo sutil (gerada por IA)
+
+### Grid de Tratamentos (6 categorias expandidas)
+
+**1. Odontologia Estética**
+
+- Imagem destacada (gerada por IA)
+- Accordion com tratamentos:
+    - **Lentes de Contato Dental**: Descrição detalhada + duração + benefícios
+    - **Clareamento a Laser**: Processo + resultados + cuidados
+    - **Facetas de Porcelana**: Indicações + vantagens
+    - **Design Digital do Sorriso**: Tecnologia + processo
+- Botão: "Agendar Consulta para Este Tratamento"
+
+**2. Implantodontia**
+
+- Imagem (gerada por IA)
+- Accordion:
+    - **Implante Unitário**
+    - **Protocolo Total (All-on-4/6)**
+    - **Carga Imediata**
+    - **Enxerto Ósseo**
+- Diferencial: "Planejamento 3D incluído"
+
+**3. Harmonização Orofacial**
+
+- Imagem (gerada por IA)
+- Accordion:
+    - **Preenchimento Labial**
+    - **Toxina Botulínica**
+    - **Ácido Hialurônico**
+    - **Bichectomia**
+    - **Fios de Sustentação**
+
+**4. Ortodontia**
+
+- Imagem (gerada por IA)
+- Accordion:
+    - **Alinhadores Invisíveis**
+    - **Aparelho Autoligado**
+    - **Ortodontia Lingual**
+    - **Ortodontia Preventiva (infantil)**
+
+**5. Estética Dental**
+
+- Accordion:
+    - **Restaurações Estéticas**
+    - **Gengivoplastia**
+    - **Ajuste de Mordida**
+
+**6. Prevenção e Saúde**
+
+- Accordion:
+    - **Limpeza + Profilaxia**
+    - **Tratamento de Canal (Endodontia)**
+    - **Tratamento Periodontal**
+    - **Check-up Digital Completo**
+
+### Seção "Como Funciona"
+
+- Timeline visual do processo:
+    1. Agendamento
+    2. Avaliação 3D
+    3. Planejamento personalizado
+    4. Execução
+    5. Acompanhamento
+
+### CTA
+
+- "Ainda em dúvida? Fale com um especialista"
+- Botão WhatsApp + Formulário
+
+---
+
+### 3. PÁGINA "TECNOLOGIA"
+
+### Hero
+
+- Título: "Inovação a Serviço do Seu Sorriso"
+- Subtítulo: "Conheça as tecnologias que fazem da Essence Clinic referência"
+
+### Seção "Nosso Arsenal Tecnológico"
+
+**Cards de Equipamentos (6 itens)**:
+
+1. **Scanner Intraoral 3D**
+    - Imagem do equipamento (gerada por IA)
+    - Descrição: "Escaneamento digital completo eliminando moldes desconfortáveis"
+    - Benefício: "Precisão de 0,01mm"
+    - Ícone de "check" verde
+2. **Tomografia Cone Beam**
+    - Imagem (IA)
+    - Descrição: "Imagens 3D de alta resolução para planejamento cirúrgico"
+    - Benefício: "90% menos radiação que tomografias convencionais"
+3. **Laser de Última Geração**
+    - Imagem (IA)
+    - Descrição: "Tratamentos minimamente invasivos e indolores"
+    - Benefício: "Cicatrização 3x mais rápida"
+4. **Software de Planejamento Digital**
+    - Imagem de tela (IA/mockup)
+    - Descrição: "Visualize seu resultado antes de iniciar"
+    - Benefício: "Previsibilidade de 98%"
+5. **Impressora 3D Odontológica**
+    - Imagem (IA)
+    - Descrição: "Próteses e guias cirúrgicos produzidos em horas"
+    - Benefício: "Precisão absoluta"
+6. **Sistema de Anestesia Digital**
+    - Imagem (IA)
+    - Descrição: "Anestesia computadorizada indolor"
+    - Benefício: "Conforto total"
+
+### Seção "Certificações e Parcerias"
+
+- Logos de fabricantes de equipamentos
+- Selos de certificação
+- Parcerias com universidades
+
+### Vídeo/Animação
+
+- "Veja a tecnologia em ação" (pode ser um embed do YouTube ou animação)
